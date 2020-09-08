@@ -31,7 +31,7 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/" component={Projects}>
+        <Route path ={process.env.PUBLIC_URL + '/'} component={Projects}>
           <Projects />
         </Route>
         <Route exact path="/side" component={Side}>
