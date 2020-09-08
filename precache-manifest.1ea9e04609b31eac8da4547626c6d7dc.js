@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16523bc1d41438c3d832ce88dae6d186",
+    "revision": "29e62f0f5c7d505a6d9ed4c47fe80350",
     "url": "/portfolio2020/index.html"
   },
   {
-    "revision": "a11353e65de448c94784",
+    "revision": "a7b941de75401ad12abe",
     "url": "/portfolio2020/static/css/main.dd7cb1fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/js/2.3911c056.chunk.js.LICENSE"
   },
   {
-    "revision": "a11353e65de448c94784",
-    "url": "/portfolio2020/static/js/main.4081283c.chunk.js"
+    "revision": "a7b941de75401ad12abe",
+    "url": "/portfolio2020/static/js/main.9717cfba.chunk.js"
   },
   {
     "revision": "e1544a2aa214378f74fe",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/media/beer_clickable.8e475b44.png"
   },
   {
-    "revision": "c9193223dfd2ea1feaffa29867d59d42",
-    "url": "/portfolio2020/static/media/beer_ionic.c9193223.png"
-  },
-  {
     "revision": "ffa7f7055f3bc84fcf5148fb454d3a14",
     "url": "/portfolio2020/static/media/beer_process.ffa7f705.png"
+  },
+  {
+    "revision": "1835573ee9967ba9af4d06a243489741",
+    "url": "/portfolio2020/static/media/beerye.1835573e.png"
   },
   {
     "revision": "8dcc55c8364f78af2b2b3b1776e78fe5",
