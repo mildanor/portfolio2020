@@ -1,0 +1,137 @@
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_portfolio_gallery*/
+.portfolio-item {
+  height: 600px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 30px #d2ecfa; }
+
+.portfolio-item img {
+  border-radius: 25px;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.row {
+  margin: 0px;
+  padding-left: 15%;
+  padding-right: 0% !important; }
+
+/* Add padding BETWEEN each column
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+   */
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px; }
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Content  */
+.portfolio-content {
+  padding: 10px; }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%; }
+  .row {
+    padding-left: 15%;
+    padding-right: 15%; }
+  .portfolio-item {
+    height: 450px; } }
+
+@media screen and (max-width: 1800px) {
+  .portfolio-item {
+    height: 430px !important; } }
+
+@media screen and (max-width: 2000px) {
+  .portfolio-item {
+    height: 490px; } }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 550px) {
+  .column {
+    width: 100%; }
+  .row {
+    padding-left: 5%;
+    padding-right: 1%; }
+  .portfolio-item {
+    height: 430px; }
+  .portfolio-item img {
+    width: 430px; } }
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 300px; }
+  .row {
+    padding-left: 5%;
+    padding-right: 1%; }
+  .portfolio-item {
+    height: 250px; }
+  .portfolio-item img {
+    width: 300px; } }
+
+.portfolio-link {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(102, 139, 143, 0.7) !important;
+  margin-left: 10px;
+  margin-top: 15px; }
+
+.link.active {
+  color: rgba(102, 139, 143, 0.7); }
+
+.project-title {
+  margin-left: 10px;
+  padding-top: 20px; }
+
+.portfolio-item .project-title {
+  display: block; }
+
+main {
+  display: flex;
+  height: 100%; }
+
+.fancy {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 2.3rem;
+  background: linear-gradient(to bottom, #8796ad, #6a788f 50%, #fff 50%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+  font-family: 'Karla', sans-serif; }
+
+span {
+  position: relative; }
+
+span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background: #6a788f;
+  bottom: 9px;
+  transition: all 0.2s ease-out; }
+
+.fancy:hover {
+  background-position: 0 11px; }
+
+span:hover:before {
+  transform: translateY(15px); }
