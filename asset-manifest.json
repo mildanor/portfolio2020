@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio2020/static/css/main.2c4e4a20.chunk.css",
+    "main.js": "/portfolio2020/static/js/main.bbf0b457.chunk.js",
+    "main.js.map": "/portfolio2020/static/js/main.bbf0b457.chunk.js.map",
+    "runtime-main.js": "/portfolio2020/static/js/runtime-main.68eda7b8.js",
+    "runtime-main.js.map": "/portfolio2020/static/js/runtime-main.68eda7b8.js.map",
+    "static/js/2.3911c056.chunk.js": "/portfolio2020/static/js/2.3911c056.chunk.js",
+    "static/js/2.3911c056.chunk.js.map": "/portfolio2020/static/js/2.3911c056.chunk.js.map",
+    "index.html": "/portfolio2020/index.html",
+    "precache-manifest.f360b1286ab4041979102d0d92b83445.js": "/portfolio2020/precache-manifest.f360b1286ab4041979102d0d92b83445.js",
+    "service-worker.js": "/portfolio2020/service-worker.js",
+    "static/css/main.2c4e4a20.chunk.css.map": "/portfolio2020/static/css/main.2c4e4a20.chunk.css.map",
+    "static/js/2.3911c056.chunk.js.LICENSE": "/portfolio2020/static/js/2.3911c056.chunk.js.LICENSE",
+    "static/media/index.scss": "/portfolio2020/static/media/Subtle-Prism_11.9b2cfa52.svg",
+    "static/media/TK2HOW.png": "/portfolio2020/static/media/TK2HOW.d9d99f38.png",
+    "static/media/beer_android.png": "/portfolio2020/static/media/beer_android.6c683f32.png",
+    "static/media/beer_clickable.png": "/portfolio2020/static/media/beer_clickable.8e475b44.png",
+    "static/media/beer_ionic.png": "/portfolio2020/static/media/beer_ionic.c9193223.png",
+    "static/media/beer_process.png": "/portfolio2020/static/media/beer_process.ffa7f705.png",
+    "static/media/cardsort.png": "/portfolio2020/static/media/cardsort.8dcc55c8.png",
+    "static/media/cern_UI.png": "/portfolio2020/static/media/cern_UI.af47b5ea.png",
+    "static/media/cern_old.png": "/portfolio2020/static/media/cern_old.6379d4f1.png",
+    "static/media/cern_tech.png": "/portfolio2020/static/media/cern_tech.0aa7b4d6.png",
+    "static/media/cern_thumb2.png": "/portfolio2020/static/media/cern_thumb2.2b8f3381.png",
+    "static/media/cern_web.png": "/portfolio2020/static/media/cern_web.e45c7e0f.png",
+    "static/media/giphy.gif": "/portfolio2020/static/media/giphy.f96e998e.gif",
+    "static/media/justabeer-story.png": "/portfolio2020/static/media/justabeer-story.ce997f15.png",
+    "static/media/me_talking.png": "/portfolio2020/static/media/me_talking.ec281579.png",
+    "static/media/new_site_map.png": "/portfolio2020/static/media/new_site_map.db36de49.png",
+    "static/media/tk_concept.png": "/portfolio2020/static/media/tk_concept.6d6d351c.png",
+    "static/media/tk_thum3d.png": "/portfolio2020/static/media/tk_thum3d.c70574af.png",
+    "static/media/wireframes.png": "/portfolio2020/static/media/wireframes.4c5385b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68eda7b8.js",
+    "static/js/2.3911c056.chunk.js",
+    "static/css/main.2c4e4a20.chunk.css",
+    "static/js/main.bbf0b457.chunk.js"
+  ]
+}
