@@ -28,11 +28,10 @@ function App() {
 </a></li>
         </ul>
       </nav>
-
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route exact path="/" component={Projects}>
+        <Route path="/" component={Projects}>
           <Projects />
         </Route>
         <Route exact path="/side" component={Side}>
