@@ -47,11 +47,11 @@ export default class tk extends Component {
                         
                         <p> We got the highest possible grade for our work and a special mention for exceptionally high quality materials and well informed experiments.</p>
                             <h2>Role</h2>
-                           <p>I was leading most of our experiments in our team of 5 people. I created many of the experiment materials including low-fidelity prototypes, scenarios, questionnaires and other probes. I also created the designs of handouts, posters (Adobe InDesign & Photoshop), and 7/10 of our presentations. In addition, to this I created user flow of our web service prototype for the customers and also worked on the high fidelity prototype. </p>
+                           <p>I was leading most of our experiments in our team of 5 people. I created many of the experiment materials including low-fidelity prototypes, scenarios, questionnaires and other probes. I also created the designs of handouts, posters (Adobe InDesign & Photoshop), and 7/10 of our presentations. In addition, to this I created user flow of our web service prototype for the customers and also worked on the high fidelity prototype (Adobe XD). </p>
                         
                         <p>To find out more about our concept visit our <a href="https://item2home.wordpress.com/" > landing page </a> which also contains link to our final prototype.
                             </p> 
-                            <NavLink to="/" className="button-link">Close project</NavLink>
+                            <NavLink to= {process.env.PUBLIC_URL + '/'} className="button-link">Close project</NavLink>
                             </div>
             </div>
         )

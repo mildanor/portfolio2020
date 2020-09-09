@@ -21,7 +21,7 @@ function App() {
       <nav className="navigation">
       <ul>
           <li>
-            <NavLink to="/" className="link">Home</NavLink>
+            <NavLink to={process.env.PUBLIC_URL + '/'} className="link">Home</NavLink>
           </li>
           <li><a className="link" href="https://drive.google.com/file/d/1MltdR9UAXKmtT8l2V1UM6ik_0XhAUPaJ/view?usp=sharing">
   CV
@@ -31,7 +31,7 @@ function App() {
       {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
       <Switch>
-        <Route path ={process.env.PUBLIC_URL + '/'} component={Projects}>
+        <Route exact path ={process.env.PUBLIC_URL + '/'} component={Projects}>
           <Projects />
         </Route>
         <Route exact path="/side" component={Side}>

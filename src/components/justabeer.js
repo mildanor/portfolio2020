@@ -43,24 +43,24 @@ Also, we placed focus on the event rather than user profile to avoid tinder-like
                         After the user research, analysis, paper prototyping and branding discussions we created the first clickable prototype. 
                        
                 </p>
-                <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beer_clickable.png')} alt="Prototype 1" />
-                <p>After testing it and taking the findings into account we developed a responsive web app prototype using Ionic framework which is based on Angular. We chose this framework because it allows for the usage of Android native suitable elements so since our end goal was an Android app, this was perfect for our prototyping needs. Below are some screenshots of the web app developed with Ionic, you can also explore the full prototype
-                        <a href="https://zuzze.github.io/Just-a-Beer/" > here. </a>
-                </p>
-                <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beer_ionic.png')} alt="Prototype 2" />
-
+                <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beer_clickable.png')} alt="Prototype 1 (Low fidelity)" />
                 
                 <p>
-                        Finally after testing and analysing the results of the web app we began the development of the Android app. We used Android studio for this. We chose Firebase as our database and backend solution. Below are some screenshots of the Final version of the Android app developed with Android studio:
+                        After testing the clickable prototype with potential users of the app, recruited online, and analysing the results, we made some iterations, finalized the user flows, low fidelity designs and began focusing on the UI. 
+                        
+                        <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beerye.png')} alt="Prototype 2 (High fidelity)" />
+
+                        After creating a few design versions, discussing them we then finally
+                        began the development of the Android app. We used Android studio for this. We chose Firebase as our database and backend solution. Below are some screenshots of the Final version of the Android app developed with Android studio:
                         
                 </p>
-                <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beer_android.png')} alt="Prototype 3" />
+                <img className="img-center"style={{width: '700px' }}src={require('../img/beer/beer_android.png')} alt="Prototype 3 (Developed app, final design)" />
 
                 <h2> Role</h2>
                     <p>
-                            We worked on this project in a team of 4. I led the user research, did the analysis of the findings which informed our further development. I also created the storyboards, drew paper prototypes that we later discussed and combined. I worked on the clickable prototype and moved it to InVision app. In the web app development stage I worked on home and profile views of the Ionic app including styling and adding the logic from a static json file we used. Finally, in the Android app, I was worked on the profile, create hangout views, styling. I also implemented the logic for the profile when connecting the app with Firebase making the calls and passing the data from other fragments using intent.
+                            We worked on this project in a team of 4. I led the user research, did the analysis of the findings which informed our further development. I also created the storyboards, drew paper prototypes that we later discussed and combined. I worked on the clickable prototype and moved it to InVision app. I also worked on high fidelity design of the UI and contributed to the development of the Android app. More specifically, I implemented the logic for the profile when connecting the app with Firebase making the calls and passing the data from other fragments using intent. I also worked on the overall styling of the app using Android studio.
                     </p>
-                    <NavLink to="/" className="button-link">Close project</NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + '/'} className="button-link">Close project</NavLink>
                     </div>
             </div>
         )

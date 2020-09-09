@@ -57,7 +57,7 @@ export default class cern extends Component {
             <img  className="img-center" style={{width: '700px' }} src={require('../img/cern/cern_web.png')} alt="Final new website" />
             <h2> Role</h2>
             <p>I was the lead UX researcher, designer and front end engineer in this project. I collaborated with one other developer who worked on the backend.</p>
-            <NavLink to="/" className="button-link">Close project</NavLink>
+            <NavLink to={process.env.PUBLIC_URL + '/'} className="button-link">Close project</NavLink>
             </div>
             </div>
         )
