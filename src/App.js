@@ -13,6 +13,7 @@ import Projects from './components/projects';
 import cern from './components/cern';
 import tk from './components/tk';
 import justabeer from './components/justabeer';
+import docsum from './components/docsum';
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
         <Route exact path="/tavaratkotiin" component={tk}>
         </Route>
         <Route exact path="/justabeer" component={justabeer}>
+        </Route>
+        <Route exact path="/explainability" component={docsum}>
         </Route>
       </Switch>
     </div>

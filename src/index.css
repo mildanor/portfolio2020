@@ -37,6 +37,7 @@ body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5em;
   /*
   More bgs: https://www.svgbackgrounds.com/#subtle-prism
   background-color: #ffffff;
@@ -73,7 +74,7 @@ h2 {
 
 .page-style p {
   color: #d1dae6 !important;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .page-content {
   padding-right: 15%;
@@ -286,7 +287,8 @@ a {
 
 .project-title {
   margin-left: 10px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  line-height: 1.2em; }
 
 .portfolio-item .project-title {
   display: block; }
