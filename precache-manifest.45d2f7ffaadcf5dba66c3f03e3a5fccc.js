@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c4be7eaec993fc7c6fea8b962fd9626",
+    "revision": "1db8bed3ccde422e673887151d57416f",
     "url": "/portfolio2020/index.html"
   },
   {
-    "revision": "e9a73cd3b28512c01bb9",
+    "revision": "447728e68e81540326ae",
     "url": "/portfolio2020/static/css/main.a4241a8b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/js/2.5ce6c274.chunk.js.LICENSE"
   },
   {
-    "revision": "e9a73cd3b28512c01bb9",
-    "url": "/portfolio2020/static/js/main.38a1a030.chunk.js"
+    "revision": "447728e68e81540326ae",
+    "url": "/portfolio2020/static/js/main.ec535be2.chunk.js"
   },
   {
     "revision": "e1544a2aa214378f74fe",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b2cfa52527192d2d3a873bf37c4234a",
     "url": "/portfolio2020/static/media/Subtle-Prism_11.9b2cfa52.svg"
-  },
-  {
-    "revision": "d9d99f3873a82c01eca82c7d859eb370",
-    "url": "/portfolio2020/static/media/TK2HOW.d9d99f38.png"
   },
   {
     "revision": "6c683f32ae24981a6113932fe83df33a",
@@ -100,8 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/media/new_site_map.db36de49.png"
   },
   {
-    "revision": "6d6d351c106c4dbc90ec2c943b7a5b9e",
-    "url": "/portfolio2020/static/media/tk_concept.6d6d351c.png"
+    "revision": "c3ddebfb6bcdd649c373b95ca72d1c4d",
+    "url": "/portfolio2020/static/media/testing_tk.c3ddebfb.jpg"
+  },
+  {
+    "revision": "7ff017a33658f66cb5a151211b7cc1a3",
+    "url": "/portfolio2020/static/media/tk_customer.7ff017a3.jpg"
   },
   {
     "revision": "c70574aff46606724c97c07dc4d34ef2",

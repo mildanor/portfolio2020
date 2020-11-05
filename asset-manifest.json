@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio2020/static/css/main.a4241a8b.chunk.css",
-    "main.js": "/portfolio2020/static/js/main.38a1a030.chunk.js",
-    "main.js.map": "/portfolio2020/static/js/main.38a1a030.chunk.js.map",
+    "main.js": "/portfolio2020/static/js/main.ec535be2.chunk.js",
+    "main.js.map": "/portfolio2020/static/js/main.ec535be2.chunk.js.map",
     "runtime-main.js": "/portfolio2020/static/js/runtime-main.68eda7b8.js",
     "runtime-main.js.map": "/portfolio2020/static/js/runtime-main.68eda7b8.js.map",
     "static/js/2.5ce6c274.chunk.js": "/portfolio2020/static/js/2.5ce6c274.chunk.js",
     "static/js/2.5ce6c274.chunk.js.map": "/portfolio2020/static/js/2.5ce6c274.chunk.js.map",
     "index.html": "/portfolio2020/index.html",
-    "precache-manifest.464e7a71d766b37d30a03b9cc1cf10ca.js": "/portfolio2020/precache-manifest.464e7a71d766b37d30a03b9cc1cf10ca.js",
+    "precache-manifest.45d2f7ffaadcf5dba66c3f03e3a5fccc.js": "/portfolio2020/precache-manifest.45d2f7ffaadcf5dba66c3f03e3a5fccc.js",
     "service-worker.js": "/portfolio2020/service-worker.js",
     "static/css/main.a4241a8b.chunk.css.map": "/portfolio2020/static/css/main.a4241a8b.chunk.css.map",
     "static/js/2.5ce6c274.chunk.js.LICENSE": "/portfolio2020/static/js/2.5ce6c274.chunk.js.LICENSE",
     "static/media/index.scss": "/portfolio2020/static/media/Subtle-Prism_11.9b2cfa52.svg",
-    "static/media/TK2HOW.png": "/portfolio2020/static/media/TK2HOW.d9d99f38.png",
     "static/media/beer_android.png": "/portfolio2020/static/media/beer_android.6c683f32.png",
     "static/media/beer_clickable.png": "/portfolio2020/static/media/beer_clickable.8e475b44.png",
     "static/media/beer_process.png": "/portfolio2020/static/media/beer_process.ffa7f705.png",
@@ -31,7 +30,8 @@
     "static/media/justabeer-story.png": "/portfolio2020/static/media/justabeer-story.ce997f15.png",
     "static/media/me_talking.png": "/portfolio2020/static/media/me_talking.ec281579.png",
     "static/media/new_site_map.png": "/portfolio2020/static/media/new_site_map.db36de49.png",
-    "static/media/tk_concept.png": "/portfolio2020/static/media/tk_concept.6d6d351c.png",
+    "static/media/testing_tk.jpg": "/portfolio2020/static/media/testing_tk.c3ddebfb.jpg",
+    "static/media/tk_customer.jpg": "/portfolio2020/static/media/tk_customer.7ff017a3.jpg",
     "static/media/tk_thum3d.png": "/portfolio2020/static/media/tk_thum3d.c70574af.png",
     "static/media/user_journey.png": "/portfolio2020/static/media/user_journey.96fc2533.png",
     "static/media/wireframes.png": "/portfolio2020/static/media/wireframes.4c5385b5.png"
@@ -40,6 +40,6 @@
     "static/js/runtime-main.68eda7b8.js",
     "static/js/2.5ce6c274.chunk.js",
     "static/css/main.a4241a8b.chunk.css",
-    "static/js/main.38a1a030.chunk.js"
+    "static/js/main.ec535be2.chunk.js"
   ]
 }
