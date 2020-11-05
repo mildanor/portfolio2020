@@ -5,6 +5,7 @@ import {
   import giphy from '../img/beer/giphy.gif';
   import cern_thumb2 from '../img/cern/cern_thumb2.png';
   import tk_thum3d from '../img/tk/tk_thum3d.png';
+  import docsum_intro from '../img/docsum/docsum_intro.png';
 
 
 //const data = 1
@@ -24,7 +25,7 @@ I am working at Thomson Reuters Labs in Zug, Switzerland is one of several TR la
 I also enjoy using my front end engineering skills as well as doing data exploration. 
 ‍</p>
 <p  className = "paragraph">
-Unfortunately all of my present (and some past) work is confidential but you can find here a selection of a few past projects. Hopefully this will give you a feel on how I like to approach solving different problems.
+Unfortunately almost all of my present (and some past) work is confidential but you can find here a selection of a few past projects and one more recent one. Hopefully this will give you a feel on how I like to approach solving different problems.
 </p>
 <h2 className ="white-h2">Projects -- </h2>
 </div>
@@ -32,19 +33,19 @@ Unfortunately all of my present (and some past) work is confidential but you can
 
 <div className="row">
   <div className="column">
+  <div className="portfolio-item">
+  <img src={docsum_intro} alt="Explanability project" />
+  <NavLink to="/explainability" className="portfolio-link">Document Summarization Explainability</NavLink>
+  <p className = "project-title"> Designing and researching an explainability feature for document summarization algorithm</p>
+    </div>
+  </div>
+  <div className="column">
     <div className="portfolio-item">
     <img src={cern_thumb2} alt="CERN" />
   <NavLink to="/windowstoolbox" className="portfolio-link">Windows Toolbox for CERN</NavLink>
     <p className = "project-title">From NICE services to Windows Toolbox, a website redesign and implementation </p>
     </div>
     </div>
-    <div className="column">
-  <div className="portfolio-item">
-  <img src={tk_thum3d} alt="CERN" />
-  <NavLink to="/tavaratkotiin" className="portfolio-link">Items to Home</NavLink>
-  <p className = "project-title"> Creating large items delivery service by combining items for volume and optimizing delivery routes</p>
-    </div>
-  </div>
   </div>
   <div className="row">
   <div className="column">
@@ -55,6 +56,13 @@ Unfortunately all of my present (and some past) work is confidential but you can
     Designing spontaneous social interactions </p>
     </div>
     </div>
+    <div className="column">
+  <div className="portfolio-item">
+  <img src={tk_thum3d} alt="CERN" />
+  <NavLink to="/tavaratkotiin" className="portfolio-link">Items to Home</NavLink>
+  <p className = "project-title"> Creating large items delivery service by combining items for volume and optimizing delivery routes</p>
+    </div>
+  </div>
   </div>
 </div>
 

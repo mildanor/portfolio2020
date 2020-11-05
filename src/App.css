@@ -37,6 +37,7 @@ body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5em;
   /*
   More bgs: https://www.svgbackgrounds.com/#subtle-prism
   background-color: #ffffff;
