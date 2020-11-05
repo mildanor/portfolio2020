@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29e62f0f5c7d505a6d9ed4c47fe80350",
+    "revision": "9c4be7eaec993fc7c6fea8b962fd9626",
     "url": "/portfolio2020/index.html"
   },
   {
-    "revision": "a7b941de75401ad12abe",
-    "url": "/portfolio2020/static/css/main.dd7cb1fd.chunk.css"
+    "revision": "e9a73cd3b28512c01bb9",
+    "url": "/portfolio2020/static/css/main.a4241a8b.chunk.css"
   },
   {
-    "revision": "765bfe914abd50d4694a",
-    "url": "/portfolio2020/static/js/2.3911c056.chunk.js"
+    "revision": "816b08c33263c2e53b30",
+    "url": "/portfolio2020/static/js/2.5ce6c274.chunk.js"
   },
   {
     "revision": "6c46089e713fdf01ec7e89132bc85450",
-    "url": "/portfolio2020/static/js/2.3911c056.chunk.js.LICENSE"
+    "url": "/portfolio2020/static/js/2.5ce6c274.chunk.js.LICENSE"
   },
   {
-    "revision": "a7b941de75401ad12abe",
-    "url": "/portfolio2020/static/js/main.9717cfba.chunk.js"
+    "revision": "e9a73cd3b28512c01bb9",
+    "url": "/portfolio2020/static/js/main.38a1a030.chunk.js"
   },
   {
     "revision": "e1544a2aa214378f74fe",
@@ -72,6 +72,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2020/static/media/cern_web.e45c7e0f.png"
   },
   {
+    "revision": "063b6bcc637525d1e329e770fada92af",
+    "url": "/portfolio2020/static/media/docsum_attempts.063b6bcc.png"
+  },
+  {
+    "revision": "4b8c7be52ba48aff7db620d1dc51172d",
+    "url": "/portfolio2020/static/media/docsum_intro.4b8c7be5.png"
+  },
+  {
+    "revision": "69810f2d0795228c582043b2968247c0",
+    "url": "/portfolio2020/static/media/docsusm_final.69810f2d.png"
+  },
+  {
     "revision": "f96e998ed5cd065f57d1367a53aef566",
     "url": "/portfolio2020/static/media/giphy.f96e998e.gif"
   },
@@ -94,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c70574aff46606724c97c07dc4d34ef2",
     "url": "/portfolio2020/static/media/tk_thum3d.c70574af.png"
+  },
+  {
+    "revision": "96fc25330fc57ca8802eecfdb61432a6",
+    "url": "/portfolio2020/static/media/user_journey.96fc2533.png"
   },
   {
     "revision": "4c5385b523576375832e5a9fa7b27854",
