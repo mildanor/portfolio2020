@@ -36,7 +36,7 @@ Unfortunately almost all of my present (and some past) work is confidential but 
   <div className="portfolio-item">
   <img src={docsum_intro} alt="Explanability project" />
   <NavLink to="/explainability" className="portfolio-link">Document Summarization Explainability</NavLink>
-  <p className = "project-title"> Designing and researching an explainability feature for document summarization algorithm</p>
+  <p className = "project-title"> Designing an explainability feature for document summarization algorithm</p>
     </div>
   </div>
   <div className="column">

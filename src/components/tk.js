@@ -14,7 +14,7 @@ export default class tk extends Component {
                 </div>
                 <div className="page-content">
                 <h2>The Problem</h2>
-                                <img className="img-right"style={{width: '490px' }}src={require('../img/tk/tk_concept.png')} alt="Our approach" />
+                                
 
                             <p>
                                 The focus of the first sprints was finding problems worth solving through extensive user research in mobility area. We learned that there are many active online second hand item buying and selling markets in Finland: from facebook groups to tori.fi and others. From interviews and online surveys we learned that not as many people participate in those because often after buying the item they have no way of transporting it. This was especially for true for items such as sofas, beds and other big items. Most of the delivery options available for those were really expensive. 
@@ -22,11 +22,11 @@ export default class tk extends Component {
                             <p>
                                 So we started to look for ways on how we could challenge that. After more research we learned about existing peer to peer delivery service which didn’t seem to be able to pick up volumes for the same employment laws that uber is struggling in Finland. So after ruling this and several other concepts out through extensive research, we came up with Tavarat Kotiin or Items2Home.
                             </p>
-
+                            <img className="img-center"style={{width: '700px' }}src={require('../img/tk/testing_tk.jpg')} alt="Our approach" />
                 <h2>Approach and Solution</h2>
                             <p>
                                 Items2Home is a service which does multiple deliveries on the same route by combining pick ups from multiple sellers and delivering to multiple buyers. 
-                                <img className="img-center"style={{width: '700px' }}src={require('../img/tk/TK2HOW.png')} alt="Our approach" />
+                                <img className="img-center"style={{width: '700px' }}src={require('../img/tk/tk_customer.jpg')} alt="Our approach" />
 
                                 We researched laws, competition, relationships between buyers and sellers online markets to understand how to tackle trust, payment and scheduling issues.  In total we conducted 64 experiments informing the development of our concept: both the user interface of the web service as well as the business model and how the communication on the delivery days would work.
 
