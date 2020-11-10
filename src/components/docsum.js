@@ -18,7 +18,7 @@ export default class docsum extends Component {
                 A deep learning text summarization model was built and integrated into one of Thomson Reuters editorial workbenches. Since this model has been in active use the primary task of the editors has become to review and edit the machine-generated the summaries rather than creating them from zero. However, one of the challenges that the users faced while using the new capability was validating the machine-generated summaries. It required them to review the entire court case again because they were not able to tell where the automated summaries had come from. This was the problem we focused on in this project. How might we enable users to understand better what the machine has done?
                 </p>
                 <p>
-                I am unable to reveal the details about the full details of the project for now and I will only give a high level overview of the design process and results of the project as it has been submitted as a paper to a conference and is currently under review.
+                I am unable to reveal the details about the project for now and I will only give a high level overview of the design process and results of the project as it has been submitted as a paper to a conference and is currently under review.
 
                 </p>
                 
