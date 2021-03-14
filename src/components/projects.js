@@ -25,7 +25,7 @@ I am working at Thomson Reuters Labs in Zug, Switzerland is one of several TR la
 I also enjoy using my front end engineering skills as well as doing data exploration. 
 ‍</p>
 <p  className = "paragraph">
-Unfortunately almost all of my present (and some past) work is confidential but you can find here a selection of a few past projects and one more recent one. Hopefully this will give you a feel on how I like to approach solving different problems.
+Unfortunately almost all of my present and past work is confidential but you can find here a couple of projects that are exceptions. Hopefully reading through them will give you a feel on how I like to approach solving different problems and my skillset.
 </p>
 <h2 className ="white-h2">Projects -- </h2>
 </div>
@@ -47,7 +47,15 @@ Unfortunately almost all of my present (and some past) work is confidential but 
     </div>
     </div>
   </div>
-  <div className="row">
+</div>
+
+        )
+
+}
+
+export default Projects;
+/*
+<div className="row">
   <div className="column">
     <div className="portfolio-item">
     <img src={giphy} alt="Just a Beer" />
@@ -64,10 +72,4 @@ Unfortunately almost all of my present (and some past) work is confidential but 
     </div>
   </div>
   </div>
-</div>
-
-        )
-
-}
-
-export default Projects;
+  */

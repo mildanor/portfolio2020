@@ -18,7 +18,9 @@ export default class docsum extends Component {
                 A deep learning text summarization model was built and integrated into one of Thomson Reuters editorial workbenches. Since this model has been in active use the primary task of the editors has become to review and edit the machine-generated the summaries rather than creating them from zero. However, one of the challenges that the users faced while using the new capability was validating the machine-generated summaries. It required them to review the entire court case again because they were not able to tell where the automated summaries had come from. This was the problem we focused on in this project. How might we enable users to understand better what the machine has done?
                 </p>
                 <p>
-                I am unable to reveal the details about the project for now and I will only give a high level overview of the design process and results of the project as it has been submitted as a paper to a conference and is currently under review.
+                Here I give only a high level overview of the design process and results of the project as it has been accepted as a case study to CHI 2021. You can read the preprint of the paper and which includes the full details of the work carried out <a target="_blank"
+                href={"https://mildanor.github.io/assets/NorkuteXAI.pdf"}
+                rel="noopener noreferrer">here</a>.
 
                 </p>
                 
@@ -33,7 +35,7 @@ export default class docsum extends Component {
          
             <h2>Research goals</h2>
             <p>
-            We wanted to get an understanding of how helpful the highlighting based on the scores would be to the editors in their task of verifying and editing the summaries. This meant that we needed them to actually use both kinds of highlights when editing the summaries. We also wanted to know how this experience compares to editing the summaries with no highlights. I turned my designs into a web app for this purpose. 
+            We wanted to get an understanding of how helpful the highlighting based on the scores would be to the editors in their task of verifying and editing the summaries. This meant that we needed them to actually use both kinds of highlights when editing the summaries. We also wanted to know how this experience compares to editing the summaries with no highlights. I turned my designs into a web app for this purpose which was used to log and study the behaviour of users. All the experiments were designed and run by me. 
             </p>
             <img className="img-center" style={{width: '700px' }} src={require('../img/docsum/user_journey.png')} alt="User journey" />
             <h2>Development</h2>
@@ -43,7 +45,7 @@ export default class docsum extends Component {
             <img className="img-center" style={{width: '700px' }} src={require('../img/docsum/docsusm_final.png')} alt="Web app" />
             <h2>Outcome</h2>
             <p>
-            The research found strong positive effects of having the highlights on the user experience and performance. The product team decided they wanted to integrate this feature into the product. Thomson Reuters CTO and CEO have been introduced to the results of the project and as previously mentioned, we have been given permission to write up results of the project as a paper to a conference - it is currently under review. This also resulted in a very first patent under my and the names of others who contributed to the project or conducted follow up research in the area, filed by the company on our behalf.
+            The research found strong positive effects of having the highlights on the user experience and performance. The product team decided they wanted to integrate this feature into the product. Thomson Reuters CTO and CEO have been introduced to the results of the project and as previously mentioned, we have been given permission to write up results of the project as a paper to a conference. This also resulted in a very first patent under my and the names of others who contributed to the project or conducted follow up research in the area, filed by the company on our behalf.
             </p>
             <h2> Role</h2>
             <p>
