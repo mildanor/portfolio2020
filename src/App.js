@@ -24,7 +24,7 @@ function App() {
           <li>
             <NavLink to={process.env.PUBLIC_URL + '/'} className="link">Home</NavLink>
           </li>
-          <li><a className="link" href="https://drive.google.com/file/d/1MltdR9UAXKmtT8l2V1UM6ik_0XhAUPaJ/view?usp=sharing">
+          <li><a className="link" href="https://drive.google.com/file/d/1fWas3n2FbkDMKr1aN8PayySKxWBWca0G/view?usp=sharing">
   CV
 </a></li>
         </ul>

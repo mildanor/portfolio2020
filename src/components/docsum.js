@@ -8,7 +8,7 @@ export default class docsum extends Component {
             <div>
                 <div className="page-style">
                 <main>
-  <span className="span-fancy"><h1 className="fancy">Summarization Explanability</h1></span>
+  <span className="span-fancy"><h1 className="fancy">Summarization Explanability.</h1></span>
 </main>
                 <p>Designing and researching an explainability feature for document summarization algorithm at Thomson Reuters, spring 2020 </p>
                 </div>
