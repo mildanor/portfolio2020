@@ -2,10 +2,12 @@ import React  from 'react';
 import {
     NavLink
   } from "react-router-dom";
-  import giphy from '../img/beer/giphy.gif';
+  //import giphy from '../img/beer/giphy.gif';
   import cern_thumb2 from '../img/cern/cern_thumb2.png';
-  import tk_thum3d from '../img/tk/tk_thum3d.png';
+  //import tk_thum3d from '../img/tk/tk_thum3d.png';
   import docsum_intro from '../img/docsum/docsum_intro.png';
+  import thumb_r from '../img/reuters/thumb_r.png';
+
 
 
 //const data = 1
@@ -21,7 +23,7 @@ const Projects = Props => {
 <p>
 I am working at Thomson Reuters Labs in Zug, Switzerland is one of several TR labs worldwide. The Labs pursue emerging trends in technology and data driven innovation through collaborative experimentation with customers across Thomson Reuters products portfolio. 
 </p>
-<p>My role is focused on UX research and design of our concepts to figure out how and where to put the human in the loop in AI powered systems.
+<p>My role is focused on UX research and design to figure out how and where to put the human in the loop in AI powered systems.
 I also enjoy using my front end engineering skills as well as doing data exploration. 
 ‍</p>
 <p  className = "paragraph">
@@ -39,6 +41,15 @@ Unfortunately almost all of my present and past work is confidential but you can
   <p className = "project-title"> Designing an explainability feature for document summarization algorithm</p>
     </div>
   </div>
+  <div className="column">
+    <div className="portfolio-item">
+    <img src={thumb_r} alt="Reuters Connect" />
+  <NavLink to="/reutersconnect" className="portfolio-link">Reuters Connect</NavLink>
+    <p className = "project-title">Designing advanced search and sidebar for Reuters Connect </p>
+    </div>
+    </div>
+  </div>
+  <div className="row">
   <div className="column">
     <div className="portfolio-item">
     <img src={cern_thumb2} alt="CERN" />

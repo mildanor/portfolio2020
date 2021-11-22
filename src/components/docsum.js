@@ -26,16 +26,19 @@ export default class docsum extends Component {
                 
             <h2> Design</h2>
                 <p>
-                In terms of the design process, a couple of different approaches were considered for translating the scores created by the data scientist on the team into highlights indicating influence of the source document text to the summary to the user and displaying them in the user interface. Overall, it was decided to keep the initial design simple. I experimented with the concept of map of the document - it indicates which parts of the document have the strongest influence on the summary created so that the user could jump directly to those document areas. Based on some initial user interviews I learned that from their perspective, the document can be divided to pages, paragraphs or sentences. 
+                In terms of the design process, a couple of different ways were considered for translating the scores created by the data scientist on the team into highlights indicating influence of the source document text to the summary to the user and displaying them in the user interface. Overall, it was decided to keep the initial design simple. I experimented with the concept of map of the document - it indicates which parts of the document have the strongest influence on the summary created so that the user could jump directly to those document areas. Based on some initial user interviews I learned that from their perspective, the document can be divided to pages, paragraphs or sentences. 
                 </p>
                 <img className="img-center"style={{width: '700px' }} src={require('../img/docsum/docsum_attempts.png')} alt="Visualization" />
                 <p>
-                However, we had challenges with extracting the data about the positioning of words in the original pdf document when analyzing and attaching the scores to them. We were only able to indicate where the highest scores for the words were on a page level and we named this concept “Page Picker”. 
+                However, we had challenges with extracting the data about the position of words in the original pdf document when analyzing and attaching the scores to the words (tokens). We were only able to indicate where the highest scores for the words were on a page level and we named this concept “Page Picker”. 
                 </p>
          
             <h2>Research goals</h2>
             <p>
-            We wanted to get an understanding of how helpful the highlighting based on the scores would be to the editors in their task of verifying and editing the summaries. This meant that we needed them to actually use both kinds of highlights when editing the summaries. We also wanted to know how this experience compares to editing the summaries with no highlights. I turned my designs into a web app for this purpose which was used to log and study the behaviour of users. All the experiments were designed and run by me. 
+            We wanted to compare two different approaches for creating the text highlights - one model specific and one model agnostic. Both approaches aimed to show the reviewers where the summary originated from by highlighting portions of the source text document.
+            
+            We wanted to get an understanding of how helpful the highlighting would be to the editors in their task of verifying and editing the summaries. This meant that we needed them to actually use both kinds of highlights when editing the summaries. We also wanted to know how this experience compares to editing the summaries with no highlights. 
+            I turned my designs into a web app for this purpose which was used to log and study the behaviour of users. All the experiments were designed and run by me. 
             </p>
             <img className="img-center" style={{width: '700px' }} src={require('../img/docsum/user_journey.png')} alt="User journey" />
             <h2>Development</h2>
@@ -45,7 +48,9 @@ export default class docsum extends Component {
             <img className="img-center" style={{width: '700px' }} src={require('../img/docsum/docsusm_final.png')} alt="Web app" />
             <h2>Outcome</h2>
             <p>
-            The research found strong positive effects of having the highlights on the user experience and performance. The product team decided they wanted to integrate this feature into the product. Thomson Reuters CTO and CEO have been introduced to the results of the project and as previously mentioned, we have been given permission to write up results of the project as a paper to a conference. This also resulted in a very first patent under my and the names of others who contributed to the project or conducted follow up research in the area, filed by the company on our behalf.
+            The research found strong positive effects of having the highlights on the user experience and performance. 
+            It was found that the users were significantly faster when working with attention highlights. Also, the participants were able to use them to enrich the machine generated summary and they also made the users trust the machine generated summary more.
+            The product team decided they wanted to integrate this feature into the product. Thomson Reuters CTO and CEO have been introduced to the results of the project and as previously mentioned, we have been given permission to write up results of the project as a case study to CHI 2021. This work also resulted in a very first patent under my and the names of others who contributed to the project or conducted follow up research in the area, filed by the company on our behalf.
             </p>
             <h2> Role</h2>
             <p>
